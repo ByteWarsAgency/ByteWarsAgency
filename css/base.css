@@ -462,3 +462,10 @@ body #cdawrap {
 .content__img-inner {
 	background-color: #0B60B0;
 }
+li {
+	list-style: none;
+
+}
+li ol a {
+ 	margin: 0 4px 0 4px;
+}
