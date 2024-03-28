@@ -537,4 +537,53 @@ a {
 
 
 
-/* RESPONSIVENESS */
+/* RESPONSIVENESS 
+
+@media screen and (max-width: 800px) {
+
+  .cards {
+    flex-direction: column-reverse;
+    height: 230vh;
+  }
+  
+  .cards-text {
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  .cards-image {
+    width: 100vw;
+    height: 50vh;
+    display: none;
+  }
+  
+  img {
+    max-height: 100%;
+  }
+  
+  .cards-image-container {
+    width: 100%;
+  }
+  
+  .cards-cta {
+    width: 100%;
+  }
+  
+  .comment {
+    font-size: 4vw;
+  }
+  
+  .fixed {
+    position: fixed;
+    opacity: 1;
+  }
+  
+  .cards-cta {
+    transition: none;
+  }
+
+  .item {
+    font-size: 5vw;
+  }
+}
+*/
