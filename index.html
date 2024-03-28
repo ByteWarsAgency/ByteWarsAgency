@@ -1,122 +1,122 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Byte Wars Agency</title>
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="https://use.typekit.net/eay5gla.css">
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<script>document.documentElement.className="js";</script>
-	</head>
-	<body>
-    <header class="frame">
-      <nav class="frame">
-				<h1 class="frame__title">BYTE WARS AGENCY</h1>
-          <li>
-            <ol>
-              <a class="frame__back" href="#">Portfolio</a>
-              <a class="frame__back" href="#">About</a>
-              <a class="frame__back" href="#">Expetise</a>
-              <a class="frame__back" href="#">Contact Us</a>
-            </ol>
-          </li>
-			</nav>
-      
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 10 Simple Yet Cool Popular Effects in Modern UI (ft. GSAP, Color Blending, etc.) </title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400:700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 10 Simple Yet Cool Popular Effects in Modern UI in the form of a landing page: 1. Loading Screen, 2. Color blending, 3. Custom Cursor, 4. GSAP smooth scrolling, 5. GSAP Horizontal scrolling, 6. GSAP Zooming on scroll, 7. Fixed Cards on scroll, 8. Transitioning text effects, 9. Responsive texts, 10. Creative buttons -->
+
+<!-- If you're resizing the screen make sure to reload by simply adding a space here -->
+
+<!-- LOADING SCREEN -->
+
+<div id="loading-screen">
+  <div id="progress-bar"></div>
+  <div id="progress-counter">0%</div>
+</div>
 
 
 
-    </header>
-		<main>
-			<div class="intro">
-				<div id="item-intro" class="content content--intro">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--1">
-							<div class="content__img-inner content__img-inner-intro"></div>
-						</div>
-					</div>
-				</div>
-				<h1 class="intro__title"> 
-					<span class="intro__title-pre">
+<!-- HERO SECTION -->
 
-            Web • Grow • Secure
+<div class="hero">
+  <div class="sun">
+    <div class="semicircle"></div>
+    <div class="line"></div>
+  </div>
+  <div class="road"></div>  
+</div>
 
-          </span> 
-				</h1> 
-				<span class="intro__info">Scroll moderately for a better animation experience.</span> 
-			</div>
-			<div class="content-wrap">
-				<div id="item-1" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--1">
-							<div class="content__img-inner" style="background-image:url(img/4.jpg);"></div>
-							<div class="content__img-inner content__img-inner--hidden" style="background-image:url(img/3.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--center content__text--large"><span data-splitting>Obey the silence</span><span data-splitting>Rebel in shadows</span></p>
-				</div>
-				<div id="item-2" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--1">
-							<div class="content__img-inner" style="background-image:url(img/5.jpg);"></div>
-							<div class="content__img-inner content__img-inner--hidden" style="background-image:url(img/6.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--left"><span>From Thrones to Chains</span> <span>Surrender of Sovereignty</span></p>
-				</div>
-				<div id="item-3" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--2">
-							<div class="content__img-inner" style="background-image:url(img/7.jpg);"></div>
-							<div class="content__img-inner content__img-inner--hidden" style="background-image:url(img/8.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--left">
-						<span>You make me dream </span><span>Your dreams</span> 
-						<span class="content__text-tiny">
-							Do you ever dream of a dream so real it makes you question reality? What is reality? Do you question it? Turn off the light switch. Does it turn off? Question right now: is it a dream? You always wake up once you realize it's a dream. So, don't wake up. Realize it's a dream. That's how you enter the real world.
-						</span>
-					</p>
-				</div>
-				<div id="item-4" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--4">
-							<div class="content__img-inner" style="background-image:url(img/9.jpg);"></div>
-							<div class="content__img-inner content__img-inner--hidden" style="background-image:url(img/10.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--center"><span>Your Willingness is</span> <span>Collective Triumph</span></p>
-				</div>
-				<div id="item-5" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--5">
-							<div class="content__img-inner" style="background-image:url(img/16.jpg);"></div>
-							<div class="content__img-inner content__img-inner--hidden" style="background-image:url(img/15.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--left"><span>Controlling my feelings</span> <span>for too long</span></p>
-				</div>
-				<div id="item-6" class="content">
-					<div class="content__img-wrap">
-						<div class="content__img content__img--6">
-							<div class="content__img-inner" style="background-image:url(img/17.jpg);"></div>
-						</div>
-					</div>
-					<p class="content__text content__text--center"><span>You were never truly loved</span> <span>You have only been betrayed</span></p>
-				</div>
-			</div>
-			<div class="content">
-		      <footer>
-            Credit
-          </footer>
-			</div>
-		</main>
-		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/splitting.min.js"></script>
-		<script src="js/gsap.min.js"></script>
-		<script src="js/ScrollTrigger.min.js"></script>
-		<script src="js/lenis.min.js"></script>
-		<script type="module" src="js/index.js"></script>
-	</body>
+
+<!-- HUGE TEXTS + ABSOLUTE POSITIONING TO RELATIVE POSITIONING -->
+
+<div class="part1">
+  <p class="sitename">UI ROAD TRIP</p>
+  
+  <div class="spacer"></div>
+  
+  <div class="big-text">
+    <p class="fadein">SAY HELLO</p>
+    <p class="fadein">TO THESE</p>
+    <p class="fadein">HUGE TEXTS</p>
+  </div>
+</div>
+
+<!-- GSAP HORIZONTAL SCROLL -->
+<div class="horizontal-container">
+  <div class="horizontal-wrapper">
+    <div class="horizontal-scroller">
+      <div class="row">
+        <div class="item filled"><p>We have some amazing content on this site. Wanna check 'em out?</p><a class="link item-link"><span class="link-text"  data-text="Check our content">Check our content</span></a></div>
+        <div class="item filled"><p>Fun fact: Did you know that minimalism is on the rise? UIs now use fewer colors, simple and clear typography, and a generous amount of white space.</p></div>
+        <div class="item big"><p>5,667 Cups of Coffee</p></div>
+        <div class="item filled"><p>Did you know that users can memorize only around 6-7 chunks of data while browsing a webpage?</p><a class="link item-link"><span class="link-text"  data-text="Learn more">Learn more</span></a></div>
+        <div class="item filled big"><p>How is your UX doing?</p></div>
+        <div class="item"><p>Fun fact 3: CSS Grids were first introduced in 2011 by Microsoft. How did we ever do without 'em?</p></div>
+      </div>
+      <div class="row">
+        
+        <div class="item big"><p>Scroll is the new click.</p></div>
+        <div class="item filled"><p>Do you like scrolling forever? Check out our infinite scrolling page. This site fulfills your passion for scrolling. It just won't stop!</p><a class="link item-link"><span class="link-text"  data-text="Check it out">Check it out</span></a></div>
+        <div class="item filled"><p>Fun fact 2: None of these links actually lead anywhere except the last link on this page.</p></div>
+        <div class="item big"><p># I <3 GSAP<p></div>
+        <div class="item filled"><p><b>Tip:</b> Search 'GSAP Horizontal Scroll' in the HTML, CSS, or JS parts of the code.</p></div>
+        <div class="item filled"><p>Gotta go already? That was a short visit. Check back later some time. Ba-bye!</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FIXED CARDS -->
+<div class="cards-container">
+  <div class="cards">
+    <div class="cards-text-container">
+      <div class="cards-text"><h2>DO YOU LIKE CARDS?</h2><p>Well, you'd better. 'Cause you're getting a bunch of 'em.'</p><p>No worries though. You just keep scrollin'.</p><p>This is just the beginning of your card adventure.</p></div>
+      <div class="cards-text"><h2>CARD AFTER CARD</h2><p>Just to get your focus here.</p><p>Nothing special here. What a nice day, by the way.</p><p>Hope you're enjoying your free set of cards.</p></div>
+
+      <div class="cards-text"><h2>NOW YOU TRY</h2><p>Time to get your hands dirty.</p><p>Search 'Cards' in the HTML, CSS, or JS to find the code for this whole card thing.</p><p>And enjoy the rest of your scrollin'.</p></div>
+      <div class="cards-cta">GET STARTED</div>
+  </div>
+   <div class="cards-image-container">
+      <div class="cards-image"><img class="image" src="https://github.com/juxtopposed/codepen/blob/main/cards.png?raw=true"><img class="alt" src="https://github.com/juxtopposed/codepen/blob/main/cards.png?raw=true"></div>
+      <div class="cards-image"><img class="image" src="https://github.com/juxtopposed/codepen/blob/main/zoom.png?raw=true">
+        <img class="alt" src="https://github.com/juxtopposed/codepen/blob/main/zoom.png?raw=true">
+      </div>
+      <div class="cards-image"><img class="image" src="https://github.com/juxtopposed/codepen/blob/main/3dcards.png?raw=true"><img class="alt" src="https://github.com/juxtopposed/codepen/blob/main/3dcards.png?raw=true"></div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ZOOM IN -->
+
+<div class="zoom-container">
+  <div class="zoom">
+      <h2 class="zoom-heading">KEEP SCROLLING TO ZOOM</h2>
+      <div class="zoom-circle"></div>
+      <h3 class="zoom-content">ZOOM INNN</h3>
+    <div class="footer">
+      <p class="footer-content">Thanks for watching!</p>
+  <a class="footer-content link" href="https://twitter.com/juxtopposed" target="_blank"><span class="link-text"  data-text="Let's connect">Let's connect</span></a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- just extra scrolling space -->
+
+<div style="height: 300vh">
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>
