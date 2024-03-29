@@ -551,7 +551,6 @@ footer {
   overflow-x: auto; /* Allow horizontal scrolling */
 }
 
-
 /* RESPONSIVENESS */
 
 
@@ -561,6 +560,10 @@ footer {
   }
   footer {
     height: 420vh
+  }
+  #progress-counter {
+    position: absolute;
+    transform: translate(10%, -10%);
   }
 
 
