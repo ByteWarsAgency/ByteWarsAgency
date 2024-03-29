@@ -76,8 +76,8 @@ body {
 /* LOADING SCREEN */
 
 #loading-screen {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@ body {
 
 .sitename {
   position: fixed;
-  font-size: 10.5vw;
+  font-size: 14.5vw;
   color: white;
   mix-blend-mode: difference;
   top: 0;
@@ -535,11 +535,43 @@ a {
   transition: transform 0.3s ease;
 }
 
+footer {
+  height: 180vh
+}
 
 
-/* RESPONSIVENESS 
+.horizontal-container {
+  overflow-x: auto; /* Allow horizontal scrolling when necessary */
+  width: 100%;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+}
+
+
+
+/* RESPONSIVENESS */
+
+
+@media screen and (max-width: 1024px){
+  .custom-cursor {
+    display: none;
+  }
+  footer {
+    height: 420vh
+  }
+
+
+}
+
 
 @media screen and (max-width: 800px) {
+
+  .custom-cursor {
+    display: none;
+  }
+
+  footer {
+    height: 220vh
+  }
 
   .cards {
     flex-direction: column-reverse;
@@ -586,4 +618,21 @@ a {
     font-size: 5vw;
   }
 }
-*/
+
+
+
+@media screen and (max-width: 580px) {
+
+  footer {
+    height: 300vh
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  footer {
+    height: 450vh
+  }
+
+}
