@@ -563,7 +563,7 @@ footer {
   }
   #progress-counter {
     position: absolute;
-    transform: translate(10%, -10%);
+    transform: translate(10%, -50%);
   }
 
 
