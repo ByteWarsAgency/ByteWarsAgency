@@ -546,6 +546,10 @@ footer {
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
 }
 
+.horizontal-container {
+  scroll-snap-type: x mandatory; /* Enable horizontal scroll snap */
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
 
 
 /* RESPONSIVENESS */
@@ -567,6 +571,10 @@ footer {
 
   .custom-cursor {
     display: none;
+  }
+
+  .horizontal-container {
+    width: 100%; /* Adjust width for smaller screens */
   }
 
   footer {
