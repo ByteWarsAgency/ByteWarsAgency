@@ -561,12 +561,6 @@ footer {
   footer {
     height: 420vh
   }
-  #progress-counter {
-    position: absolute;
-    transform: translate(10%, -50%);
-  }
-
-
 }
 
 
